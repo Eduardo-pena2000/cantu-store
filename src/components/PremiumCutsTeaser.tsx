@@ -13,7 +13,7 @@ export default function PremiumCutsTeaser() {
                     {/* Visual Side */}
                     <div className="relative h-[600px] rounded-[2rem] overflow-hidden shadow-2xl group">
                         <Image
-                            src="https://loremflickr.com/800/1000/ribeye,raw?lock=99"
+                            src="https://loremflickr.com/800/1000/ribeye,raw?lock=6"
                             alt="Corte Premium Ribeye"
                             fill
                             className="object-cover transition-transform duration-[1.5s] group-hover:scale-110"
