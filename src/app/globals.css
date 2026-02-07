@@ -8,8 +8,12 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
+  --font-sans: var(--font-outfit);
+  --font-serif: var(--font-playfair);
   --font-mono: var(--font-geist-mono);
+  --color-brand-blue: #003B70;
+  --color-brand-yellow: #FFF200;
+  --color-brand-yellow-dark: #C7B900;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -22,5 +26,4 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
 }
