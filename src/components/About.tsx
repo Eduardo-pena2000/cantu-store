@@ -11,8 +11,8 @@ export default function About() {
                     {/* Image Side */}
                     <div className="relative h-[500px] w-full rounded-tr-[100px] rounded-bl-[100px] overflow-hidden shadow-2xl transform rotate-3 hover:rotate-0 transition-all duration-700">
                         <Image
-                            src="https://loremflickr.com/800/1000/butcher,man?lock=99"
-                            alt="Maestro Carnicero Cantú"
+                            src="https://images.pexels.com/photos/2252584/pexels-photo-2252584.jpeg"
+                            alt="Rancho y Ganado de Calidad"
                             fill
                             className="object-cover"
                         />
