@@ -18,7 +18,7 @@ export const products: Product[] = [
         slug: "ribeye-high-choice",
         price: "$389.00",
         pricePrefix: "Desde",
-        image: "/images/ribeye.jpg",
+        image: "https://images.pexels.com/photos/3997609/pexels-photo-3997609.jpeg", // Raw Ribeye
         category: "res",
         weight: "700 g - 900 g",
         description: "El rey de los cortes. Marmoleo abundante.",
@@ -30,7 +30,7 @@ export const products: Product[] = [
         slug: "new-york-prime",
         price: "$345.00",
         pricePrefix: "Desde",
-        image: "/images/newyork.jpg",
+        image: "https://images.pexels.com/photos/618775/pexels-photo-618775.jpeg", // Raw Strip
         category: "res",
         weight: "350g - 400g",
         description: "Textura firme y sabor robusto.",
@@ -42,7 +42,7 @@ export const products: Product[] = [
         slug: "tomahawk",
         price: "$950.00",
         pricePrefix: "Pieza",
-        image: "/images/tomahawk.jpg",
+        image: "https://images.pexels.com/photos/7613568/pexels-photo-7613568.jpeg", // Tomahawk on grill/board
         category: "res",
         weight: "1.2kg - 1.5kg",
         description: "Impresionante presentación con hueso largo.",
@@ -54,7 +54,7 @@ export const products: Product[] = [
         slug: "picanha-angus",
         price: "$280.00",
         pricePrefix: "Por Kg",
-        image: "/images/picanha.jpg",
+        image: "https://images.pexels.com/photos/5774154/pexels-photo-5774154.jpeg", // Picanha/Raw Cap
         category: "res",
         weight: "1kg - 1.2kg",
         description: "Corte brasileño por excelencia.",
@@ -66,7 +66,7 @@ export const products: Product[] = [
         slug: "porterhouse",
         price: "$890.00",
         pricePrefix: "Pieza",
-        image: "/images/porterhouse.jpg",
+        image: "https://images.pexels.com/photos/410648/pexels-photo-410648.jpeg", // T-Bone/Porterhouse
         category: "res",
         weight: "900g - 1.1kg",
         description: "Lo mejor de dos mundos: Filete y New York.",
@@ -78,7 +78,7 @@ export const products: Product[] = [
         slug: "aguja-nortena",
         price: "$210.00",
         pricePrefix: "Por Kg",
-        image: "/images/aguja.jpg",
+        image: "https://images.pexels.com/photos/65175/pexels-photo-65175.jpeg", // Chuck/Raw meat
         category: "res",
         weight: "500g - 600g",
         description: "El clásico del norte. Jugoso.",
@@ -93,7 +93,7 @@ export const products: Product[] = [
         pricePrefix: "Por Kg",
         weight: "1 kg",
         category: "puerco",
-        image: "https://loremflickr.com/800/600/raw,pork,ribs?lock=6",
+        image: "https://images.pexels.com/photos/11749405/pexels-photo-11749405.jpeg", // Raw Ribs
         longDescription: "Costillitas cargadas de carne...",
         description: "Costillitas cargadas de carne."
     },
@@ -105,7 +105,7 @@ export const products: Product[] = [
         pricePrefix: "Por Kg",
         weight: "1 kg",
         category: "puerco",
-        image: "https://loremflickr.com/800/600/raw,pork,chop?lock=7",
+        image: "https://images.pexels.com/photos/7262907/pexels-photo-7262907.jpeg", // Pork Chop
         longDescription: "Sabor ahumado tradicional...",
         description: "Sabor ahumado tradicional."
     },
@@ -117,7 +117,7 @@ export const products: Product[] = [
         pricePrefix: "Por Kg",
         weight: "1 kg",
         category: "pollo",
-        image: "https://loremflickr.com/800/600/raw,chicken,breast?lock=8",
+        image: "https://images.pexels.com/photos/616354/pexels-photo-616354.jpeg", // Raw Chicken Breast
         longDescription: "Pechuga limpia, sin hueso...",
         description: "Pechuga limpia, sin hueso."
     },
@@ -129,7 +129,7 @@ export const products: Product[] = [
         pricePrefix: "Por Kg",
         weight: "1 kg",
         category: "pollo",
-        image: "https://loremflickr.com/800/600/raw,chicken,legs?lock=9",
+        image: "https://images.pexels.com/photos/5769384/pexels-photo-5769384.jpeg", // Chicken Legs
         longDescription: "La parte más jugosa del pollo...",
         description: "La parte más jugosa del pollo."
     },
@@ -141,7 +141,7 @@ export const products: Product[] = [
         pricePrefix: "",
         weight: "3 kg",
         category: "asador",
-        image: "https://loremflickr.com/800/600/charcoal,bag?lock=10",
+        image: "https://images.pexels.com/photos/12316428/pexels-photo-12316428.jpeg", // Charcoal
         longDescription: "El combustible esencial...",
         description: "El combustible esencial."
     },
@@ -153,7 +153,7 @@ export const products: Product[] = [
         pricePrefix: "c/u",
         weight: "350 ml",
         category: "asador",
-        image: "https://loremflickr.com/800/600/mexican,salsa,jar?lock=11",
+        image: "https://images.pexels.com/photos/5695863/pexels-photo-5695863.jpeg", // Salsas
         longDescription: "El toque final...",
         description: "El toque final."
     }
